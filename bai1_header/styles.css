@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+}
+.header {
+    height: 365px;
+    background-color: #eaeaef;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 118px;
+}
+.logo span {
+    display: block;
+    font-size: 22px;
+    font-family: signika, sans-serif;
+    font-weight: 600;
+    color: rgb(58, 35, 21);
+    margin: 22px 12px 0;
+}
+.logo-img {
+    position: relative;
+    background-color: #3b2518;
+    width: 70px;
+    height: 54px;
+    padding-bottom: 8px;
+}
+.logo-img::after {
+    content: "";
+    position: absolute;
+    top: 62px;
+    left: 0px;
+    border-left: 35px solid #3b2518;
+    border-bottom: 23px solid transparent;
+}
+.logo-img::before {
+    content: "";
+    position: absolute;
+    top: 62px;
+    right: 0px;
+    border-right: 35px solid #3b2518;
+    border-bottom: 23px solid transparent;
+}
+.logo-img img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5px;
+
+}
+.header-heading {
+    font-size: 51px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-family: anton, sans-serif;
+    margin: 75px 0 0;
+}
+.header-btn {
+    border: 1px solid #3a2315;
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    margin-top: 18px;
+}
+.header-btn span {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: signika, sans-serif;
+    text-transform: uppercase;
+    color: #3a2315;
+    margin-left: 50px;
+}
+.btn-start {
+    background-color: rgb(58, 35, 21);
+    color: #FFF;
+    font-size: 16px;
+    font-family: signika, sans-serif;
+    border: none;
+    padding: 12px 20px;
+    margin-left: 69px;
+}
+.header-right {
+    margin-top: 30px;
+    font-size: 13px;
+    font-family: signika, sans-serif;
+    font-weight: 600;
+    color: #7d3e69;
+}
+.main-top {
+    height: 332px;
+}
+.list-item {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.item1 {
+    position: absolute;
+    left: 122px;
+}
+.item2 {
+    position: absolute;
+    top: -114px;
+}
+.item3 {
+    position: absolute;
+    top: 153px;
+    left: 359px;
+}
+.item4 {
+    position: absolute;
+    right: 142px;
+    top: -35px;
+}
