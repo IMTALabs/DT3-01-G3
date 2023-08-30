@@ -46,7 +46,7 @@
     cursor: pointer;
 }
 
-/* .container-three {
+.container-three {
     background-color: rgb(75 150 160);
     height: 500px;
     padding-top: 20px;
@@ -93,7 +93,7 @@
 
 img {
     width: 150px;
-} */
+}
 
 .slide-tittle{
     display: flex;
